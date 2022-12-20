@@ -2,11 +2,10 @@
 
 namespace py = pybind11;
 
-float some_fn(float arg1, float arg2){
-    return arg1 + arg2;
+int add(int a, int b) {
+    return a + b;
 }
 
-PYBIND11_MODULE(module_name, handle){
-    handle.doc() = "hehe";
-    handle.def("some_fn_python_name", &some_fn);
+PYBIND11_MODULE(example, m) {
+    m.def("add", &add, "A function which adds two numbers");
 }
