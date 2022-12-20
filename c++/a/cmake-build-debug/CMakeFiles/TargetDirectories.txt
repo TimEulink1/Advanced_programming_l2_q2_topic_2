@@ -1,0 +1,5 @@
+C:/Users/maxhu/OneDrive - Saxion/School/jaar2/kw2/programming concepts/Advanced_programming_l2_q2_topic_2/c++/a/cmake-build-debug/CMakeFiles/module_name.dir
+C:/Users/maxhu/OneDrive - Saxion/School/jaar2/kw2/programming concepts/Advanced_programming_l2_q2_topic_2/c++/a/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/maxhu/OneDrive - Saxion/School/jaar2/kw2/programming concepts/Advanced_programming_l2_q2_topic_2/c++/a/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/maxhu/OneDrive - Saxion/School/jaar2/kw2/programming concepts/Advanced_programming_l2_q2_topic_2/c++/a/cmake-build-debug/pybind11/CMakeFiles/edit_cache.dir
+C:/Users/maxhu/OneDrive - Saxion/School/jaar2/kw2/programming concepts/Advanced_programming_l2_q2_topic_2/c++/a/cmake-build-debug/pybind11/CMakeFiles/rebuild_cache.dir
