@@ -29,9 +29,9 @@ pip3 install pybind11
  ````
  c++ -O3 -Wall -shared -std=c++11 -fPIC $(python3 -m pybind11 --includes) example.cpp -o example$(python3-config --extension-suffix)
  ````
- 6. Er is binnen deze folder nu een .so file gegenereerd bijvoorbeeld: exmaple.so
+ 6. Er is binnen deze folder nu een .so file gegenereerd bijvoorbeeld: example.so
  7. Het is nu mogelijk om deze te importeren in python door:
- ````import exmaple````
+ ````import example````
  8. Vervolgens is de functie aan te roepen door:
 ````python
 example.add(3,5) #results in 8
