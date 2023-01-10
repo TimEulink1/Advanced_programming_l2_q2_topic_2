@@ -1,3 +1,0 @@
-/mnt/c/Users/Tim Eulink/code/Advanced_programming_l2_q2_topic_2/c++/a/cmake-build-debug/CMakeFiles/a.dir
-/mnt/c/Users/Tim Eulink/code/Advanced_programming_l2_q2_topic_2/c++/a/cmake-build-debug/CMakeFiles/edit_cache.dir
-/mnt/c/Users/Tim Eulink/code/Advanced_programming_l2_q2_topic_2/c++/a/cmake-build-debug/CMakeFiles/rebuild_cache.dir
