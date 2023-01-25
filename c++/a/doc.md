@@ -6,14 +6,33 @@ bron:
  1. Maak een c++ bestand
 Voorbeeld **main.cpp**: 
 ````c
-#include <pybind11/pybind11.h>  
-  
-float add(float arg1, float arg2){  
-    return arg1 + arg2;  
-}  
-  
-PYBIND11_MODULE(example, m){  
-    m.def("add", &add, "Beschrijving")  
+#include <pybind11/pybind11.h>
+#include <string>
+namespace py = pybind11;
+
+int add(int a, int b) {
+    return a + b;
+}
+
+struct Pet{
+    Pet(const std::string &name) : name(name){}
+    void setName(const std::string &name_){
+        name = name_;
+    }
+    const std::string &getName()  const { return name; }
+
+    std::string name;
+};
+
+PYBIND11_MODULE(example, m) {
+    m.doc () = "Example plugin";
+    m.def("add", &add, "A function which adds two intergers");
+
+    py::class_<Pet>(m, "Pet")
+            .def(py::init<const std::string  &>())
+            .def("setName", &Pet::setName)
+            .def("getName", &Pet::getName)
+            .def_readwrite("name", &Pet::name);
 }
 ````
  2. Open ubuntu
